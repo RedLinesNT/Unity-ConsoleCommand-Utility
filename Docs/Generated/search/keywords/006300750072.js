@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cur",["Variable"],[["currentCommandInput",,[["RDNTLG.Command.ConsoleCommandEditorConsole",,,,0,"File:ConsoleCommand/Editor/ConsoleCommandEditorConsole.cs:RDNTLG.Command.ConsoleCommandEditorConsole.currentCommandInput","CSharpClass:RDNTLG.Command.ConsoleCommandEditorConsole:currentCommandInput"]]]]);

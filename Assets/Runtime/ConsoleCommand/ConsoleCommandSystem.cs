@@ -180,22 +180,13 @@ namespace RDNTLG.Command {
                 ArgumentsParser _args = new ArgumentsParser(_commandSplit);
                 
                 try {
-                    string _logHeader = $"---------- Result for command: {_com.Key.Command} ----------";
-                    string _logFooter = $"";
-                    for (int i = 0; i < _logHeader.Length; i++) _logFooter += "-";
-                    
-                    
                     if (_com.Key.ExecOnMainThread) { //Must be executed on the MainThread
                         mainThreadQueue.Enqueue(() => {
-                                Debug.Log(_logHeader);
                                 _com.Value.Invoke(_args);
-                                Debug.Log(_logFooter);
                             });
                         
                     } else { //Doesn't matter
-                        Debug.Log(_logHeader);
                         _com.Value.Invoke(_args);
-                        Debug.Log(_logFooter);
                     }
                 } catch (Exception _ex) {
                     Debug.LogError($"[{nameof(ConsoleCommandSystem)}] Failed to execute command {_command}! Exception: {_ex}");

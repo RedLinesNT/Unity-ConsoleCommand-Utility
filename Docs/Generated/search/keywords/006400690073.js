@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dis",["Function"],[["DisplayWindow",,[["RDNTLG.Command.ConsoleCommandEditorConsole",,,,0,"File:ConsoleCommand/Editor/ConsoleCommandEditorConsole.cs:RDNTLG.Command.ConsoleCommandEditorConsole.DisplayWindow","CSharpClass:RDNTLG.Command.ConsoleCommandEditorConsole:DisplayWindow"]]]]);
