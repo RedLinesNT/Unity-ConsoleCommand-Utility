@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("arg",["Class"],[["ArgumentsParser",,[["RDNTLG.Command",,,,0,"File:ConsoleCommand/ArgumentParser.cs:RDNTLG.Command.ArgumentsParser","CSharpClass:RDNTLG.Command.ArgumentsParser"]]]]);

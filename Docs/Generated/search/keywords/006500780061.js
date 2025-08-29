@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("exa",["Variable"],[["Example",,[["RDNTLG.Command.ConsoleCommandAttribute",,,,0,"File:ConsoleCommand/ConsoleCommandAttribute.cs:RDNTLG.Command.ConsoleCommandAttribute.Example","CSharpClass:RDNTLG.Command.ConsoleCommandAttribute:Example"]]]]);

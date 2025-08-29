@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("fra",["Function"],[["FrameUpdate",,[["RDNTLG.Command.ConsoleCommandSystem",,,,0,"File:ConsoleCommand/ConsoleCommandSystem.cs:RDNTLG.Command.ConsoleCommandSystem.FrameUpdate","CSharpClass:RDNTLG.Command.ConsoleCommandSystem:FrameUpdate"]]]]);

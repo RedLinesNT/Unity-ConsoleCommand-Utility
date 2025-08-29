@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("par",["Variable"],[["parameters",,[["RDNTLG.Command.ArgumentsParser",,,,0,"File:ConsoleCommand/ArgumentParser.cs:RDNTLG.Command.ArgumentsParser.parameters","CSharpClass:RDNTLG.Command.ArgumentsParser:parameters"]]]]);

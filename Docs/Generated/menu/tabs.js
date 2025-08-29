@@ -1,0 +1,1 @@
+﻿NDFramePage.OnLocationsLoaded([["File","files",0,"^File([0-9]*)$"],["Class","classes",1,"^([A-Za-z]+)Class$"]]);NDMenu.OnTabsLoaded([["File","Files","File:ConsoleCommand/","files.js"],["Class",["Classes","RDNTLG","Command"],"CSharpClass:RDNTLG.Command.","classes.js"]]);

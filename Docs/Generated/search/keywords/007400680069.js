@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("thi",["Operator"],[["this",,[["RDNTLG.Command.ArgumentsParser",,,,0,"File:ConsoleCommand/ArgumentParser.cs:RDNTLG.Command.ArgumentsParser.this","CSharpClass:RDNTLG.Command.ArgumentsParser:this"]]]]);

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sup",["Variable"],[["SupportedArgs",,[["RDNTLG.Command.ConsoleCommandAttribute",,,,0,"File:ConsoleCommand/ConsoleCommandAttribute.cs:RDNTLG.Command.ConsoleCommandAttribute.SupportedArgs","CSharpClass:RDNTLG.Command.ConsoleCommandAttribute:SupportedArgs"]]]]);

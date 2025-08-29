@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ini",["Function"],[["Initialize",,[["RDNTLG.Command.ConsoleCommandSystem",,,,0,"File:ConsoleCommand/ConsoleCommandSystem.cs:RDNTLG.Command.ConsoleCommandSystem.Initialize","CSharpClass:RDNTLG.Command.ConsoleCommandSystem:Initialize"]]]]);

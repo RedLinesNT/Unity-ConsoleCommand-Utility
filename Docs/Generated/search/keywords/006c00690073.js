@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("lis",["Function"],[["ListenInput",,[["RDNTLG.Command.ConsoleCommandSystem",,,,0,"File:ConsoleCommand/ConsoleCommandSystem.cs:RDNTLG.Command.ConsoleCommandSystem.ListenInput","CSharpClass:RDNTLG.Command.ConsoleCommandSystem:ListenInput"]]]]);

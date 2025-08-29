@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("ter",["Function"],[["Terminate",,[["RDNTLG.Command.ConsoleCommandSystem",,,,0,"File:ConsoleCommand/ConsoleCommandSystem.cs:RDNTLG.Command.ConsoleCommandSystem.Terminate","CSharpClass:RDNTLG.Command.ConsoleCommandSystem:Terminate"]]]]);
