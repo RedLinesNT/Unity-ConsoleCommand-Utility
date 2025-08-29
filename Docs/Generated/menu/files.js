@@ -1,1 +1,1 @@
-﻿NDMenu.OnSectionLoaded("files.js",[[1,"ArgumentParser.cs"],[1,"ConsoleCommandAttribute.cs"],[1,"ConsoleCommandSystem.cs"]]);
+﻿NDMenu.OnSectionLoaded("files.js",[[1,"ArgumentParser.cs"],[1,"ConsoleCommandAttribute.cs"],[1,"ConsoleCommandSystem.cs"],[2,"Editor","File:ConsoleCommand/Editor/",[[1,"ConsoleCommandAT.cs"]]]]);

@@ -235,7 +235,7 @@ namespace RDNTLG.Command {
         /// <summary>
         /// Print the version of the application.
         /// </summary>
-        [ConsoleCommand("version", "Print the current version", "none", true), Preserve]
+        [ConsoleCommand("version", "Print the current version", null, true), Preserve]
         private static void HandleVersionPrintCommand(ArgumentsParser _args) {
             Debug.Log($"RDNTLG ConsoleCommand Utility, running on: {Application.productName} - {Application.version}");
         }

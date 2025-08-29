@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("che",["Function"],[["CheckSignatures",,[["RDNTLG.Command.ConsoleCommandAT",,,,0,"File:ConsoleCommand/Editor/ConsoleCommandAT.cs:RDNTLG.Command.ConsoleCommandAT.CheckSignatures","CSharpClass:RDNTLG.Command.ConsoleCommandAT:CheckSignatures"]]]]);
