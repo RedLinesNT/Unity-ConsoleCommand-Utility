@@ -15,7 +15,7 @@ namespace RDNTLG.Command {
     /// </summary>
     /// <remarks>
     /// <para>Methods that use this attribute must be declared
-    /// as follows "<i>static void METHOD_NAME(<see cref="ArgumentParser"/>)</i>".</para>
+    /// as follows "<i>static void METHOD_NAME(<see cref="ArgumentsParser"/>)</i>".</para>
     ///
     /// <para>Only available under the <c>RDNTLG_CCM</c>/<c>UNITY_EDITOR</c>
     /// preprocessor definitions.</para>
