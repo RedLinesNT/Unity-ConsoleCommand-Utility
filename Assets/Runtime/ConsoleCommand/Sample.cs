@@ -15,7 +15,7 @@ namespace RDNTLG.Command {
     /// </summary>
     public class Sample {
 
-        [ConsoleCommand("hello_what", "name", "Just print 'Hello {-name}!'", true), Preserve]
+        [ConsoleCommand("hello_what", "name", "hello_what -name 'world'", true), Preserve]
         private static void HandleHelloWorldCommand(ArgumentsParser _args) {
             if (_args["name"] is not null or "") {
                 Debug.Log($"Hello {_args["name"]}!");

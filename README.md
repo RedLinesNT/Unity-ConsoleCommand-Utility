@@ -98,7 +98,7 @@ Here's an example on how to create a new method that can be called by a command:
 ```
 #if RDNTLG_CCM || UNITY_EDITOR
 
-    [ConsoleCommand("COMMAND_NAME", "SHORT_DESC", "EXAMPLE"), Preserve]
+    [ConsoleCommand("COMMAND_NAME", "SUPPORTED_ARGS", "EXAMPLE"), Preserve]
     private static void HandleCommand(ArgumentsParser _args) {
         Debug.Log("Hello World!");
     }
