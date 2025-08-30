@@ -8,7 +8,7 @@ I just decided to make it “better” (editor usage), and make it public.
 Quick warning before you read this readme!<br/>
 In it, I don’t really dive into every feature and what you can do with this utility. 
 If you want a better idea of what you can and cannot do with it, I recommend reading that readme, then actually trying it out
-or just checking out the documentation.
+or just checking out the [documentation](#doc).
 
 <hr>
 
@@ -31,7 +31,7 @@ or just checking out the documentation.
 The utility was mainly made to be used on builds inside a Terminal/CMD on both Windows and Linux.
 You simply need to launch your game through a Terminal and start to write commands!
 
-`TODO: GIF EXAMPLE`
+<img src="Docs/Assets/UCCU-TERMINAL_EXAMPLE.gif" width=700/>
 
 <a href="#"><img src="Docs/Assets/UCCU-SECTION01-01.png" alt="Pass-in arguments" id="overview-arguments" width=600/></a><br/>
 When you start an application, you can pass in launch arguments. Well, that's the same thing when you call a command.<br/>
@@ -54,7 +54,7 @@ Here’s an example on how to do that very easily:
 ```
 
 The command written is `hello_what -name "world"` and the output should be `Hello world!`.<br/>
-This code is available in the source code.
+You can see a demo of that specific command in the section below...
 
 <a href="#"><img src="Docs/Assets/UCCU-SECTION01-02.png" alt="Editor Custom Console" id="overview-editor-console" width=600/></a><br/>
 When I first made the utility, it was only aimed to be working on Dedicated Servers.<br>
@@ -65,12 +65,12 @@ That’s where this (quite experimental) Editor Window comes in.<br>
 The whole idea is simply to be able to execute commands on the fly 
 while being in play mode in the editor. Nothing more, nothing less.
 
-`TODO: GIF EXAMPLE`
+<img src="Docs/Assets/UCCU-EDITOR_EXAMPLE.gif" width=700/>
 
 Be aware that I'm very bad when it comes to making custom windows, 
 and that part of the utility WON'T EVER replace the default Console offered by Unity.
 
-This part of tool is available under the `Tools > RDNTLG` tab in the editor.
+This part of the tool is available under the `Tools > RDNTLG` tab in the editor.
 
 <a href="#"><img src="Docs/Assets/UCCU-SECTION01-02.png" alt="Dump To Markdown" id="overview-dump-to-markdown" width=600/></a><br/>
 So now, you've written over 100 commands using this utility (impressive tbh). You might be wondering how you 
@@ -85,7 +85,7 @@ You can see an example of the output in [CommandsDump.md](CommandsDump.md).
 <hr>
 
 <a href="#"><img src="Docs/Assets/UCCU-SECTION02.png" alt="Installation/Usage" id="installation-usage"/></a>
-Just either download the Package the release tab or clone this repo in your project.
+Just clone this repo in your project.
 
 If you plan to use this system outside the editor (<i>Standalone builds</i>), you must
 define the `RDNTLG_CCM` preprocessor definition. You can do it in either your "Build Profile"
@@ -94,7 +94,7 @@ define the `RDNTLG_CCM` preprocessor definition. You can do it in either your "B
 By default, the system is available to use in the editor without any action.
 
 
-Here's an example on how to create a new method that can be called by the system:
+Here's an example on how to create a new method that can be called by a command:
 ```
 #if RDNTLG_CCM || UNITY_EDITOR
 
