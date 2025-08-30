@@ -207,7 +207,7 @@ namespace RDNTLG.Command {
         /// Print all <see cref="ConsoleCommandAttribute"/> registered
         /// and available to use.
         /// </summary>
-        [ConsoleCommand("help", "Print all commands", null, false), Preserve]
+        [ConsoleCommand("help", null, null, false), Preserve]
         private static void HandleDumpDebugCommand(ArgumentsParser _args) {
             string _printResult = string.Empty;
 
@@ -226,7 +226,7 @@ namespace RDNTLG.Command {
         /// <summary>
         /// Print the version of the application.
         /// </summary>
-        [ConsoleCommand("version", "Print the current version", null, true), Preserve]
+        [ConsoleCommand("version", null, null, true), Preserve]
         private static void HandleVersionPrintCommand(ArgumentsParser _args) {
             Debug.Log($"RDNTLG ConsoleCommand Utility, running on: {Application.productName} - {Application.version}");
         }
