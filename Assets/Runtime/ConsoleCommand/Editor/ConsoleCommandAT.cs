@@ -109,7 +109,7 @@ namespace RDNTLG.Command {
                          $"{_command.Key.SupportedArgs} | " +
                          $"{_command.Key.Example} | " +
                          $"{_command.Key.ExecOnMainThread} | " +
-                         $"{_command.Value.Method.DeclaringType?.Namespace}.{_command.Value.Method.Name} |\n";
+                         $"{_command.Value.Method.DeclaringType}.{_command.Value.Method.Name} |\n";
             }
             
             //Finalize the write process
