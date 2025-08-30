@@ -1,5 +1,5 @@
-# PLACEHOLDER PROJECT GIT BANNER
-Long story short, I was making something up that required a Dedicated Server, cool right? 
+<a href="#"><img src="Docs/Assets/UCCU-WIDE.png" alt="Repository banner"/></a>
+Long story short, I was making something up that required a Dedicated Server, cool right?<br/>
 Well, it was cool until I needed some way of interacting with the systems and game logic of the Dedicated Server.
 
 That’s where this utility comes in! Giving me the capability to input commands into my terminal to affect the active behavior of the game.<br/>
@@ -12,20 +12,28 @@ or just checking out the documentation.
 
 <hr>
 
-# PLACEHOLDER SUMMARY BANNER
+<a href="#"><img src="Docs/Assets/UCCU-SECTION00.png" alt="Summary" id="summary"/></a>
 <!--ts-->
-* [SUMMARY ENTRY](#SUMMARY_ENTRY_01)
+* [Features Overview](#feature-overview)
+  * [Terminal/CMD Usage (Builds)](#overview-terminal-usage)
+  * [Pass-In Arguments](#overview-arguments)
+  * [In-Editor Console](#overview-editor-console)
+  * [Dump to MARKDOWN](#overview-dump-to-markdown)
+* [Installation and Usage](#installation-usage)
+* [Documentation](#doc)
+* [Code Standards/Norm](#code-standards)
+* [Tested on](#tested-on)
 <!--te-->
 <hr>
 
-# PLACEHOLDER FEATURES OVERVIEW
-## DEFAULT TERMINAL USAGE
+<a href="#"><img src="Docs/Assets/UCCU-SECTION01.png" alt="Feature Overview" id="feature-overview"/></a>
+<a href="#"><img src="Docs/Assets/UCCU-SECTION01-00.png" alt="Default Terminal Usage" id="overview-terminal-usage" width=600/></a><br/>
 The utility was mainly made to be used on builds inside a Terminal/CMD on both Windows and Linux.
 You simply need to launch your game through a Terminal and start to write commands!
 
 `TODO: GIF EXAMPLE`
 
-## PASS-IN ARGUMENTS
+<a href="#"><img src="Docs/Assets/UCCU-SECTION01-01.png" alt="Pass-in arguments" id="overview-arguments" width=600/></a><br/>
 When you start an application, you can pass in launch arguments. Well, that's the same thing when you call a command.<br/>
 If your method supports args, you can use them in the terminal/editor to have a different behavior.
 
@@ -45,9 +53,10 @@ Here’s an example on how to do that very easily:
 #endif
 ```
 
-The command written is `hello_what -name "world"` and the output should be `Hello world!`.
+The command written is `hello_what -name "world"` and the output should be `Hello world!`.<br/>
+This code is available in the source code.
 
-## IN-EDITOR CUSTOM CONSOLE
+<a href="#"><img src="Docs/Assets/UCCU-SECTION01-02.png" alt="Editor Custom Console" id="overview-editor-console" width=600/></a><br/>
 When I first made the utility, it was only aimed to be working on Dedicated Servers.<br>
 But after using it for quite a while, it became very painful not being able to use it inside the editor, 
 forced to recompile/rebuild the application each time a change was made.
@@ -63,7 +72,7 @@ and that part of the utility WON'T EVER replace the default Console offered by U
 
 This part of tool is available under the `Tools > RDNTLG` tab in the editor.
 
-## DUMP TO MARKDOWN
+<a href="#"><img src="Docs/Assets/UCCU-SECTION01-02.png" alt="Dump To Markdown" id="overview-dump-to-markdown" width=600/></a><br/>
 So now, you've written over 100 commands using this utility (impressive tbh). You might be wondering how you 
 can list all commands available, right?
 Although the utility supports the command `help`, it's not quite practical to have every command displayed like that. 
@@ -75,7 +84,7 @@ This part of the tool itself is very simple and makes the listing of all availab
 You can see an example of the output in [CommandsDump.md](CommandsDump.md).
 <hr>
 
-# PLACEHOLDER INSTALLATION/USAGE
+<a href="#"><img src="Docs/Assets/UCCU-SECTION02.png" alt="Installation/Usage" id="installation-usage"/></a>
 Just either download the Package the release tab or clone this repo in your project.
 
 If you plan to use this system outside the editor (<i>Standalone builds</i>), you must
@@ -100,18 +109,19 @@ The system will only look for a static method with a signature as written, the s
 in the editor under the `Tools > RDNTLG` tab.
 <hr>
 
-# PLACEHOLDER DOCUMENTATION
-By default, when you clone a version of this repository, you take with yourself a copy of the
-generated documentation of the source code.
+<a href="#"><img src="Docs/Assets/UCCU-SECTION03.png" alt="Documentation" id="doc"/></a>
+When you clone a version of this repository, you take with yourself a copy of the
+generated documentation of the source code (Documentation is generated with [Natural Docs](https://naturaldocs.org/)).
 
 This documentation is located in `Docs/Generated/index.html`. Providing anyone
 a lighter documentation of the source code at any time without obligation to open the
-engine, IDE and/or the source code itself.
+engine, IDE and/or the source code itself. But sadly, you'll need to get a local copy of this repo
+to interact with it...
 
 A stated previously, the documentation of stock commands is available in [CommandsDump.md](CommandsDump.md).
 <hr>
 
-# PLACEHOLDER IN-CODE STANDARDS
+<a href="#"><img src="Docs/Assets/UCCU-SECTION04.png" alt="In-Code Standards" id="code-standards"/></a>
 Class : ``` CamelCase ```<br>
 Attributes : ``` camelCase ```<br>
 Variables : ``` _camelCase ```<br>
@@ -120,7 +130,8 @@ Enums : ``` ENameOfEnum ```<br>
 Enum Values : ``` VALUE ```<br>
 <hr>
 
-# PLACEHOLDER TESTED ON 
-The utility itself was written for Unity 6 (6000.2.0F1), but I don’t see any reason why it wouldn’t 
-work on newer/older versions of the engine. If you spot any issues, please let me know.
+<a href="#"><img src="Docs/Assets/UCCU-SECTION05.png" alt="Tested on" id="tested-on"/></a>
+The utility itself was written for Unity 6 (6000.2.0F1) (Windows/Linux), but I don’t see any reason why it wouldn’t 
+work on newer/older versions of the engine.<br/>
+If you spot any issues, please let me know.
 <hr>
