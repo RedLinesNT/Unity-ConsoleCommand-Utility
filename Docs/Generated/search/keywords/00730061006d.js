@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("sam",["Class"],[["Sample",,[["RDNTLG.Command",,,,0,"File:ConsoleCommand/Sample.cs:RDNTLG.Command.Sample","CSharpClass:RDNTLG.Command.Sample"]]]]);

@@ -1,1 +1,1 @@
-﻿NDMenu.OnSectionLoaded("classes.js",[[1,"ArgumentsParser"],[1,"ConsoleCommandAT"],[1,"ConsoleCommandAttribute"],[1,"ConsoleCommandEditorConsole"],[1,"ConsoleCommandSystem"]]);
+﻿NDMenu.OnSectionLoaded("classes.js",[[1,"ArgumentsParser"],[1,"ConsoleCommandAT"],[1,"ConsoleCommandAttribute"],[1,"ConsoleCommandEditorConsole"],[1,"ConsoleCommandSystem"],[1,"Sample"]]);

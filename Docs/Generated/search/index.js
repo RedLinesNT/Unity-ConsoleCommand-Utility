@@ -1,1 +1,1 @@
-﻿NDSearch.OnPrefixIndexLoaded(["arg","che","com","con","cur","dis","dum","exa","exe","fee","fra","han","ini","lis","log","mai","ond","one","ong","par","sup","sys","ter","thi"]);
+﻿NDSearch.OnPrefixIndexLoaded(["arg","che","com","con","cur","dis","dum","exa","exe","fee","fra","han","ini","lis","log","mai","ond","one","ong","par","sam","sup","sys","ter","thi"]);
