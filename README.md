@@ -1,15 +1,14 @@
 <a href="#"><img src="Docs/Assets/UCCU-WIDE.png" alt="Repository banner"/></a>
 Long story short, I was making something up that required a Dedicated Server, cool right?<br/>
-Well, it was cool until I needed some way of interacting with the systems and game logic of the Dedicated Server.
+Well, it was cool until I needed some way of interacting with the systems and game logic of the said Server.
 
 That’s where this utility comes in! Giving me the capability to input commands into my terminal to affect the active behavior of the game.<br/>
-I just decided to make it “better” (editor usage), and make it public.
+I just decided to make it “better” (editor usage), and public.
 
 Quick warning before you read this readme!<br/>
 In it, I don’t really dive into every feature and what you can do with this utility. 
 If you want a better idea of what you can and cannot do with it, I recommend reading that readme, then actually trying it out
 or just checking out the [documentation](#doc).
-
 <hr>
 
 <a href="#"><img src="Docs/Assets/UCCU-SECTION00.png" alt="Summary" id="summary"/></a>
