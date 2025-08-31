@@ -71,7 +71,7 @@ and that part of the utility WON'T EVER replace the default Console offered by U
 
 This part of the tool is available under the `Tools > RDNTLG` tab in the editor.
 
-<a href="#"><img src="Docs/Assets/UCCU-SECTION01-02.png" alt="Dump To Markdown" id="overview-dump-to-markdown" width=600/></a><br/>
+<a href="#"><img src="Docs/Assets/UCCU-SECTION01-03.png" alt="Dump To Markdown" id="overview-dump-to-markdown" width=600/></a><br/>
 So now, you've written over 100 commands using this utility (impressive tbh). You might be wondering how you 
 can list all commands available, right?
 Although the utility supports the command `help`, it's not quite practical to have every command displayed like that. 
